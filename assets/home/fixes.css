@@ -41,3 +41,4 @@ textarea.lead-i{min-height:120px;padding:16px 20px;border-radius:22px;resize:ver
 .foot-ask p{margin:0;max-width:36em}
 .foot-ask a{color:var(--fg);text-decoration:underline;text-underline-offset:3px}
 .foot-ask a:hover{color:var(--gold2)}
+@media (max-width:600px){.lead-h{font-size:min(30px,calc((100vw - 96px)/11.2))!important}}
