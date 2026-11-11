@@ -378,7 +378,7 @@ requestAnimationFrame(f);setTimeout(function(){if(!r.classList.contains("rv-sdon
         <div class="lead-g">
           <label class="lead-f"><span class="lead-l">Your name</span><input class="lead-i" name="name" autocomplete="name" required></label>
           <label class="lead-f"><span class="lead-l">Business name</span><input class="lead-i" name="business" autocomplete="organization" required></label>
-          <label class="lead-f lead-w"><span class="lead-l">Website <i>(optional)</i></span><input class="lead-i" name="website" type="text" inputmode="url" autocomplete="url" placeholder="Leave blank if you do not have one yet"></label>
+          <label class="lead-f lead-w"><span class="lead-l">Website <i>(optional)</i></span><input class="lead-i" name="website" type="text" inputmode="url" autocomplete="url" aria-describedby="leadWebH"><span class="lead-hint" id="leadWebH">Leave blank if you do not have one yet</span></label>
           <label class="lead-f"><span class="lead-l">Email</span><input class="lead-i" name="email" type="email" autocomplete="email" required></label>
           <label class="lead-f"><span class="lead-l">Phone <i>(optional)</i></span><input class="lead-i" name="phone" type="tel" autocomplete="tel"></label>
           <label class="lead-f lead-w"><span class="lead-l">What do you need?</span><select class="lead-i" name="need" required><option value="" selected disabled>Choose one</option><option>Get found on Google and AI search</option><option>New or redesigned website</option><option>Missed calls and follow-up</option><option>Not sure yet, need help deciding</option></select></label>

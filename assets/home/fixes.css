@@ -7,8 +7,10 @@
 .bar:not(.solid) .bar-x{text-shadow:0 0 2px rgba(0,0,0,.9),0 1px 8px rgba(0,0,0,.7)}
 @media (min-width:861px){.bar .bar-x{display:inline-flex}}
 .menu-f .menu-tel,.menu-f .menu-lead{display:inline-flex;align-items:center;min-height:44px}
-.lead{max-width:680px;margin:clamp(56px,9vh,96px) auto 0;padding:clamp(28px,4vw,48px);border:1px solid rgba(238,232,221,.14);border-radius:22px;background:linear-gradient(180deg,rgba(238,232,221,.045),rgba(238,232,221,.015));text-align:left;scroll-margin-top:96px}
-.lead-h{text-align:center;margin-bottom:12px}
+.lead{max-width:760px;margin:clamp(56px,9vh,96px) auto 0;padding:clamp(28px,4vw,48px);border:1px solid rgba(238,232,221,.14);border-radius:22px;background:linear-gradient(180deg,rgba(238,232,221,.045),rgba(238,232,221,.015));text-align:left;scroll-margin-top:96px}
+.lead-h{text-align:center;margin-bottom:14px;font-size:clamp(30px,3vw,46px)!important;line-height:1.12}
+.lead-h .ml{display:block}
+.lead-hint{font-size:13px;color:rgba(238,232,221,.46);padding-left:4px}
 .lead-h em{font-family:"Playfair Display",Georgia,serif;font-style:italic;font-weight:500}
 .lead-sub{max-width:30em;margin:0 auto clamp(26px,4vh,40px);text-align:center;font-size:clamp(16px,1.15vw,18px);line-height:1.5;color:var(--fgm)}
 .lead-g{display:grid;grid-template-columns:1fr;gap:18px}
